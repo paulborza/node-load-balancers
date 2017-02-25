@@ -5,6 +5,6 @@ Gruntfile.js
 tsconfig.json
 tslint.json
 
+*.js.map
 *.spec.d.ts
 *.spec.js
-*.spec.js.map
