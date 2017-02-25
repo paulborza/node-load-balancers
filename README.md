@@ -15,9 +15,9 @@ import { P2cBalancer } from 'arrow-function-load-balancer';
 
 // Lists three fake proxies; don't forget to update this list with your proxies.
 const proxies = [
-    'http://proxy1.arrowfunction.com/,
-    'http://proxy2.arrowfunction.com/,
-    'http://proxy3.arrowfunction.com/,
+    'http://proxy1.arrowfunction.com/',
+    'http://proxy2.arrowfunction.com/',
+    'http://proxy3.arrowfunction.com/',
 ];
 
 // Initializes the power of two choices balancer with three proxies.
