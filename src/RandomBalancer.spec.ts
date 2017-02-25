@@ -22,6 +22,7 @@ test('variation of 10K requests', () => {
     }
 
     for (const bin of bins) {
+
         // The percentage of assigned requests for each bin should be close to 10%.
         // Tests up to the first decimal point.
         expect(bin / 1e4).toBeCloseTo(0.1, 1);
