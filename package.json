@@ -1,7 +1,8 @@
 {
   "author": {
     "email": "paul@borza.ro",
-    "name": "Paul Borza"
+    "name": "Paul Borza",
+    "url": "https://borza.ro/"
   },
   "description": "Load balancers for Node, including \"The power of two choices\" algorithm",
   "devDependencies": {
