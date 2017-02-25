@@ -13,6 +13,14 @@
     "tslint": "~4.4.2",
     "typescript": "~2.1.5"
   },
+  "keywords": [
+    "load balancer",
+    "load balancing",
+    "random load balancer",
+    "random load balancing",
+    "the power of 2 choices",
+    "the power of two choices"
+  ],
   "license": "MIT",
   "name": "arrow-function-load-balancer",
   "repository": {
