@@ -29,6 +29,7 @@
     "the power of two choices"
   ],
   "license": "MIT",
+  "main": "dist/index.js",
   "name": "arrow-function-load-balancer",
   "repository": {
     "type": "git",
