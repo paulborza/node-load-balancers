@@ -1,4 +1,8 @@
 {
+  "author": {
+    "email": "paul@borza.ro",
+    "name": "Paul Borza"
+  },
   "description": "Various load balancers, including \"The power of two choices\" algorithm",
   "devDependencies": {
     "@types/jest": "~18.1.1",
@@ -13,6 +17,7 @@
     "tslint": "~4.4.2",
     "typescript": "~2.1.5"
   },
+  "homepage": "https://arrowfunction.com/open-source/load-balancer.html",
   "keywords": [
     "load balancer",
     "load balancing",
