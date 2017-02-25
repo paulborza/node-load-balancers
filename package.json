@@ -1,12 +1,5 @@
 {
-  "name": "arrow-function-load-balancer",
-  "title": "Arrow Function Load Balancers",
   "description": "Various load balancers, including \"The power of two choices\" algorithm",
-  "version": "0.1.0",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/paulborza/arrow-function-load-balancer.git"
-  },
   "devDependencies": {
     "@types/jest": "~18.1.1",
     "grunt": "~1.0.1",
@@ -19,5 +12,13 @@
     "jest": "~18.1.0",
     "tslint": "~4.4.2",
     "typescript": "~2.1.5"
-  }
+  },
+  "license": "MIT",
+  "name": "arrow-function-load-balancer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paulborza/arrow-function-load-balancer.git"
+  },
+  "title": "Arrow Function Load Balancers",
+  "version": "0.1.0"
 }
