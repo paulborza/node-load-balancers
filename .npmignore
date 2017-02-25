@@ -1,5 +1,10 @@
+coverage/
 src/
 
 Gruntfile.js
 tsconfig.json
 tslint.json
+
+*.spec.d.ts
+*.spec.js
+*.spec.js.map
