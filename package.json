@@ -3,7 +3,7 @@
     "email": "paul@borza.ro",
     "name": "Paul Borza"
   },
-  "description": "Various load balancers, including \"The power of two choices\" algorithm",
+  "description": "Load balancers for Node, including \"The power of two choices\" algorithm",
   "devDependencies": {
     "@types/jest": "~18.1.1",
     "grunt": "~1.0.1",
@@ -33,6 +33,6 @@
     "type": "git",
     "url": "https://github.com/paulborza/arrow-function-load-balancer.git"
   },
-  "title": "Arrow Function Load Balancers",
+  "title": "Load Balancers for Node",
   "version": "0.1.4"
 }
