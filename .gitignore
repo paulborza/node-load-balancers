@@ -1,0 +1,6 @@
+.tscache/
+coverage/
+dist/
+node_modules/
+
+.baseDir.ts

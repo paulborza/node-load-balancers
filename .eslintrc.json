@@ -1,0 +1,17 @@
+{
+    "root": true,
+    "extends": [
+        "eslint:recommended"
+    ],
+    "env": {
+        "node": true
+    },
+    "rules": {
+        "indent": ["error", 4],
+        "quotes": ["error", "single"]
+    },
+    "parserOptions": {
+        "ecmaVersion": 7,
+        "sourceType": "module"
+    }
+}
