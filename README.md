@@ -8,7 +8,7 @@
 
 ## Usage
 
-The power of two choices [load balancing algorithm] (http://www.eecs.harvard.edu/~michaelm/postscripts/tpds2001.pdf.) (P2c) is recommended over the random load balancing algorithm.
+The power of two choices [load balancing algorithm](http://www.eecs.harvard.edu/~michaelm/postscripts/tpds2001.pdf) (P2c) is recommended over the random load balancing algorithm.
 
 ```
 import { P2cBalancer } from 'arrow-function-load-balancer';
