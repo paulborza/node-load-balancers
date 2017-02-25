@@ -1,5 +1,4 @@
 {
-  "private": true,
   "name": "arrow-function-load-balancer",
   "title": "Arrow Function Load Balancers",
   "description": "Various load balancers, including \"The power of two choices\" algorithm",
