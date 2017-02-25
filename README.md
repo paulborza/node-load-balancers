@@ -10,7 +10,7 @@
 
 The power of two choices [load balancing algorithm](http://www.eecs.harvard.edu/~michaelm/postscripts/tpds2001.pdf) (P2c) is recommended over the random load balancing algorithm.
 
-```
+```javascript
 import { P2cBalancer } from 'arrow-function-load-balancer';
 
 // Lists three fake proxies; don't forget to update this list with your proxies.
@@ -34,4 +34,4 @@ for (let i = 0; i < 100; i++) {
 ## Contributing
 
 Got a new load balancing algorithm you'd like to see implemented in this package?
-Please go ahead and [create a work item](https://github.com/paulborza/arrow-function-load-balancer/issues/new) for me; or better yet, send a pull request and I'll be sure to take a look at it within 24 hours.
+Please go ahead and [create a work item](https://github.com/paulborza/arrow-function-load-balancer/issues/new) for me; or better yet, send a pull request and I'll be sure to take a look at it within 24 hours. Thanks!
