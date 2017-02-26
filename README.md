@@ -8,7 +8,7 @@
 
 ## Installation
 
-```
+```bash
 npm install --save arrow-function-load-balancer
 ```
 
