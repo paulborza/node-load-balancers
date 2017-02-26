@@ -13,8 +13,7 @@ The power of two choices [load balancing algorithm](http://www.eecs.harvard.edu/
 ```javascript
 import { P2cBalancer, RandomBalancer } from 'arrow-function-load-balancer';
 
-// Lists three fake proxies;
-// don't forget to update this list with your proxies.
+// TODO: Update this list with your proxies or virtual machines.
 const proxies = [
     'http://proxy1.arrowfunction.com/',
     'http://proxy2.arrowfunction.com/',
