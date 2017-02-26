@@ -6,6 +6,12 @@
 [![Dev. Dependency Status](https://img.shields.io/david/dev/paulborza/arrow-function-load-balancer.svg?style=flat)](https://david-dm.org/paulborza/arrow-function-load-balancer?type=dev)
 [![NPM version](https://img.shields.io/npm/v/arrow-function-load-balancer.svg?style=flat)](https://www.npmjs.com/package/arrow-function-load-balancer)
 
+## Installation
+
+```
+npm install --save arrow-function-load-balancer
+```
+
 ## Usage
 
 The power of two choices [load balancing algorithm](http://www.eecs.harvard.edu/~michaelm/postscripts/tpds2001.pdf) (P2c) is recommended over the random load balancing algorithm.
