@@ -17,7 +17,10 @@ npm install --save arrow-function-load-balancer
 The power of two choices [load balancing algorithm](http://www.eecs.harvard.edu/~michaelm/postscripts/tpds2001.pdf) (P2c) is recommended over the random load balancing algorithm.
 
 ```javascript
-import { P2cBalancer, RandomBalancer } from 'arrow-function-load-balancer';
+import {
+    P2cBalancer,
+    RandomBalancer,
+} from 'arrow-function-load-balancer';
 
 // TODO: Update this list with your proxies or virtual machines.
 const proxies = [
