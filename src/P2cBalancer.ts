@@ -18,12 +18,15 @@
 export class P2cBalancer {
     private bins: number[];
 
-    constructor(count: number) {
+    /**
+     * @offset should be used for unit testing and nothing else.
+     */
+    constructor(count: number, offset: number = 0) {
         this.bins = new Array(count);
 
         // Initializes the elements of the array to zero.
         for (let i = 0; i < this.bins.length; i++) {
-            this.bins[i] = 0;
+            this.bins[i] = offset;
         }
     }
 
