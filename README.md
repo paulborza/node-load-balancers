@@ -27,6 +27,8 @@ const proxies = [
     'http://proxy1.arrowfunction.com/',
     'http://proxy2.arrowfunction.com/',
     'http://proxy3.arrowfunction.com/',
+    'http://proxy4.arrowfunction.com/',
+    'http://proxy5.arrowfunction.com/',
 ];
 
 // Initializes the power of two choices (P2c) balancer with three proxies.
