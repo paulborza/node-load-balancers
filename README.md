@@ -14,8 +14,8 @@ npm install --save arrow-function-load-balancer
 
 ## Comparison of load balancing algorithms
 
-- The Random Balancer is a bit chaotic; doesn't distribute requests as evenly as one would think because there's no such thing as perfect randomness.
-- The Power of 2 Choices (P2c) Balancer comes very close to the ideal random balancer. *Use the P2c balancer over the random balancer.*
+- The Random Balancer is a bit chaotic; it doesn't distribute requests as evenly as one would think because there's no such thing as perfect randomness.
+- The Power of 2 Choices (P2c) Balancer comes very close to the ideal load balancer. **Use the P2c balancer over the random balancer.**
 
 ![Comparison of load balancing algorithms](https://raw.githubusercontent.com/paulborza/arrow-function-load-balancer/master/docs/errors.png)
 
