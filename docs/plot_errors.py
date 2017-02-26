@@ -24,7 +24,7 @@ plt.bar(bins + bar_width, p2c_balancer, bar_width, alpha=0.8,
 plt.axhline(y=0.2, linestyle='dashed',
     color='g', label='Ideal load balancer')
 
-plt.title('Comparison of load balancing performance')
+plt.title('Comparison of load balancing algorithms')
 
 plt.ylim([0.19, 0.21])
 plt.ylabel(r'traffic percentage')
