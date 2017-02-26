@@ -11,7 +11,7 @@
 The power of two choices [load balancing algorithm](http://www.eecs.harvard.edu/~michaelm/postscripts/tpds2001.pdf) (P2c) is recommended over the random load balancing algorithm.
 
 ```javascript
-import { P2cBalancer } from 'arrow-function-load-balancer';
+import { P2cBalancer, RandomBalancer } from 'arrow-function-load-balancer';
 
 // Lists three fake proxies;
 // don't forget to update this list with your proxies.
@@ -21,8 +21,11 @@ const proxies = [
     'http://proxy3.arrowfunction.com/',
 ];
 
-// Initializes the power of two choices balancer with three proxies.
+// Initializes the power of two choices (P2c) balancer with three proxies.
 const balancer = new P2cBalancer(proxies.length);
+
+// P2c balancer is preferred over the random balancer.
+// const balancer = new RandomBalancer(proxies.length);
 
 for (let i = 0; i < 100; i++) {
     const proxy = proxies[balancer.pick()];

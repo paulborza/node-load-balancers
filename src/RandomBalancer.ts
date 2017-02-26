@@ -6,21 +6,14 @@
  */
 
 export class RandomBalancer {
-    private bins: number[];
+    private count: number;
 
     constructor(count: number) {
-        this.bins = new Array(count);
-
-        // Initializes the elements of the array to zero.
-        for (let i = 0; i < this.bins.length; i++) {
-            this.bins[i] = 0;
-        }
+        this.count = count;
     }
 
     public pick() {
-        const result = Math.trunc(Math.random() * this.bins.length);
-
-        this.bins[result]++;
+        const result = Math.trunc(Math.random() * this.count);
 
         return result;
     }
