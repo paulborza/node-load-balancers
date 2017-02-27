@@ -47,7 +47,7 @@ const balancer = new P2cBalancer(proxies.length);
 // P2c balancer is preferred over the random balancer.
 // const balancer = new RandomBalancer(proxies.length);
 
-for (let i = 0; i < 100; i++) {
+for (let i = 0; i < 10000; i++) {
     const proxy = proxies[balancer.pick()];
 
     // TODO: Use the assigned proxy to scrape a website,
