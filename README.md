@@ -12,16 +12,19 @@
 npm install --save arrow-function-load-balancer
 ```
 
-## Comparison of load balancing algorithms
+## Comparison of load balancers
 
 - The Random Balancer is a bit chaotic; it doesn't distribute requests as evenly as one would think because there's no such thing as perfect randomness.
-- The Power of 2 Choices (P2c) Balancer comes very close to the ideal load balancer. **Use the P2c balancer over the random balancer.**
+- The Power of Two Choices (P2c) Balancer comes very close to the ideal load balancer. **Use the P2c balancer over the random balancer.**
 
 ![Comparison of load balancing algorithms](https://raw.githubusercontent.com/paulborza/arrow-function-load-balancer/master/docs/errors.png)
 
-## Usage
+The chart above depicts 10,000 requests routed to five proxies (exactly like in the following code sample).
+Then the numer of requests are normalized to 100%. Since there are five proxies, each proxy should receive 20% of the traffic.
+But notice that's not the case with the random load balancing algorithm.
+That's why [the power of two choices](http://www.eecs.harvard.edu/~michaelm/postscripts/tpds2001.pdf) (P2c) load balancing algorithm is recommended over the random load balancing algorithm.
 
-The power of two choices [load balancing algorithm](http://www.eecs.harvard.edu/~michaelm/postscripts/tpds2001.pdf) (P2c) is recommended over the random load balancing algorithm.
+## Usage
 
 ```javascript
 import {
@@ -38,7 +41,7 @@ const proxies = [
     'http://proxy5.arrowfunction.com/',
 ];
 
-// Initializes the power of two choices (P2c) balancer with three proxies.
+// Initializes the power of 2 choices (P2c) balancer with five proxies.
 const balancer = new P2cBalancer(proxies.length);
 
 // P2c balancer is preferred over the random balancer.
