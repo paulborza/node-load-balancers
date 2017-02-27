@@ -29,9 +29,9 @@ plt.bar(bins + bar_width, p2c_balancer, bar_width, alpha=0.8,
     color='limegreen', label='The Power of 2 Choices (P2c) Balancer')
 
 plt.axhline(y=0.2, linestyle='dashed',
-    color='green', label=r'Ideal load balancer')
+    color='green', label=r'Ideal Load Balancer')
 
-plt.title('Comparison of load balancers', fontsize=20, y=1.02)
+plt.title('Comparison of Load Balancers', fontsize=20, y=1.02)
 
 plt.ylim([0.19, 0.21])
 plt.ylabel('Traffic Percentage')
