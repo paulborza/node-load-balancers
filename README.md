@@ -1,4 +1,4 @@
-# Load balancers for Node
+# Load Balancers for Node
 
 [![Build Status](https://img.shields.io/travis/paulborza/arrow-function-load-balancer/master.svg?style=flat)](https://travis-ci.org/paulborza/arrow-function-load-balancer)
 [![Coverage Status](https://img.shields.io/coveralls/paulborza/arrow-function-load-balancer/master.svg?style=flat)](https://coveralls.io/r/paulborza/arrow-function-load-balancer?branch=master)
@@ -12,7 +12,7 @@
 npm install --save arrow-function-load-balancer
 ```
 
-## Comparison of load balancers
+## Comparison of Load Balancers
 
 - The Random Balancer is a bit chaotic; it doesn't distribute requests as evenly as one would think because there's no such thing as perfect randomness.
 - The Power of Two Choices (P2c) Balancer comes very close to the ideal load balancer. **Use the P2c balancer over the random balancer.**
