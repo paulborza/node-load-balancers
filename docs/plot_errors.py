@@ -18,7 +18,7 @@ os.environ['PATH'] = os.environ['PATH'] + ':/Library/TeX/texbin/'
 plt.rc('font', family='serif')
 
 fig, ax = plt.subplots()
-ax.yaxis.set_major_formatter(ticker.FuncFormatter(lambda y, _: '{:.0%}'.format(y)))
+ax.yaxis.set_major_formatter(ticker.FuncFormatter(lambda y, _: '{:.1%}'.format(y)))
 
 bins = np.arange(5)
 
