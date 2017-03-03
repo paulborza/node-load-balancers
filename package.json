@@ -16,7 +16,7 @@
     "grunt-ts": "~6.0.0-beta.11",
     "grunt-tslint": "~4.0.0",
     "jest": "~19.0.2",
-    "tslint": "~4.4.2",
+    "tslint": "~4.5.1",
     "typescript": "~2.2.1"
   },
   "homepage": "https://arrowfunction.com/open-source/load-balancer.html",
