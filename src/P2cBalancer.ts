@@ -5,6 +5,8 @@
  * of the MIT license. See the LICENSE file for details.
  */
 
+import { IBalancer } from './IBalancer';
+
 /**
  * Implementation of the Power of Two Choices algorithm.
  * Amazing for its simplicity and effectiveness.
@@ -15,7 +17,7 @@
  * - If "A" is under less load then select "A".
  * - Otherwise, select "B".
  */
-export class P2cBalancer {
+export class P2cBalancer implements IBalancer {
     private bins: number[];
 
     /**

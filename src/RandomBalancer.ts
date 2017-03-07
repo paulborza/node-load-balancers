@@ -5,7 +5,9 @@
  * of the MIT license. See the LICENSE file for details.
  */
 
-export class RandomBalancer {
+import { IBalancer } from './IBalancer';
+
+export class RandomBalancer implements IBalancer {
     private count: number;
 
     constructor(count: number) {

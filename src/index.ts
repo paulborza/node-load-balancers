@@ -5,6 +5,7 @@
  * of the MIT license. See the LICENSE file for details.
  */
 
+import { IBalancer } from './IBalancer';
 import { P2cBalancer } from './P2cBalancer';
 import { RandomBalancer } from './RandomBalancer';
 
