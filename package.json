@@ -19,7 +19,6 @@
     "tslint": "~4.5.1",
     "typescript": "~2.2.1"
   },
-  "homepage": "https://arrowfunction.com/open-source/load-balancer.html",
   "keywords": [
     "load balancer",
     "load balancing",
@@ -30,11 +29,11 @@
   ],
   "license": "MIT",
   "main": "dist/index.js",
-  "name": "arrow-function-load-balancer",
+  "name": "load-balancers",
   "repository": {
     "type": "git",
-    "url": "https://github.com/paulborza/arrow-function-load-balancer.git"
+    "url": "https://github.com/paulborza/load-balancers.git"
   },
   "title": "Load Balancers for Node",
-  "version": "1.2.0"
+  "version": "1.0.0"
 }
