@@ -24,8 +24,8 @@
     "load balancing",
     "random load balancer",
     "random load balancing",
-    "the power of 2 choices",
-    "the power of two choices"
+    "the power of 2 choices algorithm",
+    "the power of two choices algorithm"
   ],
   "license": "MIT",
   "main": "dist/index.js",
