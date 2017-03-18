@@ -41,10 +41,10 @@ const proxies = [
     'http://proxy5.arrowfunction.com/',
 ];
 
-// Initializes the power of 2 choices (P2c) balancer with five proxies.
+// Initializes the power of 2 choices (P2c) Balancer with five proxies.
 const balancer = new P2cBalancer(proxies.length);
 
-// P2c balancer is preferred over the random balancer.
+// P2c Balancer is preferred over the Random Balancer.
 // const balancer = new RandomBalancer(proxies.length);
 
 for (let i = 0; i < 10000; i++) {
