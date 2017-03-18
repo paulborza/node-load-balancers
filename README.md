@@ -1,4 +1,4 @@
-# Load Balancers for Node
+# Load balancers for Node
 
 [![Build Status](https://img.shields.io/travis/paulborza/load-balancers/master.svg?style=flat)](https://travis-ci.org/paulborza/load-balancers)
 [![Coverage Status](https://img.shields.io/coveralls/paulborza/load-balancers/master.svg?style=flat)](https://coveralls.io/r/paulborza/load-balancers?branch=master)
@@ -12,10 +12,10 @@
 npm install --save load-balancers
 ```
 
-## Comparison of Load Balancers
+## Comparison of load balancers
 
 - The Random Balancer is a bit chaotic; it doesn't distribute requests as evenly as one would think because there's no such thing as perfect randomness.
-- The Power of Two Choices (P2c) Balancer comes very close to the ideal load balancer. **Use the P2c balancer over the random balancer.**
+- The Power of Two Choices (P2c) Balancer comes very close to the ideal load balancer. **Use the P2c Balancer over the Random Balancer!**
 
 ![Comparison of load balancing algorithms](https://raw.githubusercontent.com/paulborza/load-balancers/master/docs/errors.png)
 

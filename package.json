@@ -4,7 +4,7 @@
     "name": "Paul Borza",
     "url": "https://borza.ro/"
   },
-  "description": "Load balancers for Node, including \"The power of two choices\" algorithm",
+  "description": "Load balancers for Node, including \"the power of two choices\" algorithm",
   "devDependencies": {
     "@types/jest": "~18.1.1",
     "grunt": "~1.0.1",
@@ -35,5 +35,5 @@
     "url": "https://github.com/paulborza/load-balancers.git"
   },
   "title": "Load Balancers for Node",
-  "version": "1.0.1"
+  "version": "1.0.2"
 }
