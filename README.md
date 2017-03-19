@@ -1,4 +1,4 @@
-# Load balancers for Node
+# &#129337; Load balancers for Node
 
 [![Build Status](https://img.shields.io/travis/paulborza/load-balancers/master.svg?style=flat)](https://travis-ci.org/paulborza/load-balancers)
 [![Coverage Status](https://img.shields.io/coveralls/paulborza/load-balancers/master.svg?style=flat)](https://coveralls.io/r/paulborza/load-balancers?branch=master)
