@@ -36,5 +36,5 @@
     "url": "https://github.com/paulborza/node-load-balancers.git"
   },
   "title": "Load balancers for Node",
-  "version": "1.0.6"
+  "version": "1.0.7"
 }
