@@ -1,4 +1,10 @@
-# https://travis-ci.org/
+#
+# Copyright (c) 2017 Paul Borza
+#
+# This software may be modified and distributed under the terms
+# of the MIT license. See the LICENSE file for details.
+#
+
 language: node_js
 node_js: 7
 
