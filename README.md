@@ -34,11 +34,11 @@ import {
 
 // TODO: Update this list with your proxies or virtual machines.
 const proxies = [
-    'http://proxy1.arrowfunction.com/',
-    'http://proxy2.arrowfunction.com/',
-    'http://proxy3.arrowfunction.com/',
-    'http://proxy4.arrowfunction.com/',
-    'http://proxy5.arrowfunction.com/',
+    'https://proxy1.arrowfunction.com/',
+    'https://proxy2.arrowfunction.com/',
+    'https://proxy3.arrowfunction.com/',
+    'https://proxy4.arrowfunction.com/',
+    'https://proxy5.arrowfunction.com/',
 ];
 
 // Initializes the power of 2 choices (P2c) Balancer with five proxies.
