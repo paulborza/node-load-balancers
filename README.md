@@ -17,7 +17,7 @@ npm install --save load-balancers
 - The Random Balancer is a bit chaotic; it doesn't distribute requests as evenly as one would think because there's no such thing as perfect randomness.
 - The Power of Two Choices (P2c) Balancer comes very close to the ideal load balancer. **Use the P2c Balancer over the Random Balancer!**
 
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~paulborza/5.embed"></iframe>
+![Comparison of load balancing algorithms](https://raw.githubusercontent.com/paulborza/node-load-balancers/master/docs/errors.png)
 
 The chart above depicts 10,000 requests routed to five proxies (exactly like in the following code sample).
 Then the numer of requests are normalized to 100%. Since there are five proxies, each proxy should receive 20% of the traffic.
