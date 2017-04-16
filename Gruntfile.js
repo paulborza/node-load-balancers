@@ -76,5 +76,5 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-ts');
     grunt.loadNpmTasks('grunt-tslint');
 
-    grunt.registerTask('default', ['eslint', 'ts', 'tslint', 'shell:test', 'coveralls']);
+    grunt.registerTask('default', ['eslint', 'ts', 'tslint', 'shell:test']);
 };
