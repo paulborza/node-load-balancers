@@ -21,10 +21,7 @@
   },
   "keywords": [
     "load balancer",
-    "load balancers",
     "load balancing",
-    "random load balancer",
-    "round robin load balancing",
     "the power of 2 choices algorithm",
     "the power of two choices algorithm"
   ],
@@ -33,12 +30,12 @@
   "name": "load-balancers",
   "repository": {
     "type": "git",
-    "url": "https://github.com/paulborza/node-load-balancers.git"
+    "url": "https://github.com/arrowfunction/load-balancers.git"
   },
   "scripts": {
     "prepublish": "grunt"
   },
   "types": "dist/index.d.ts",
   "title": "Load balancers for Node",
-  "version": "1.0.10"
+  "version": "1.0.11"
 }
