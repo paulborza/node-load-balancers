@@ -20,7 +20,7 @@ npm install --save load-balancers
 The following chart depicts 10,000 requests routed to five proxies (exactly like in the following code sample).
 Then the numer of requests are normalized to 100%. Since there are five proxies, each proxy should receive 20% of the traffic.
 But notice that's not the case with the random load balancing algorithm.
-That's why the [power of two choices](http://www.eecs.harvard.edu/~michaelm/postscripts/tpds2001.pdf) load balancing algorithm is recommended over the random load balancing algorithm.
+That's why the power of two choices load balancing algorithm is recommended over the random load balancing algorithm.
 
 ![Comparison of load balancing algorithms](https://raw.githubusercontent.com/paulborza/node-load-balancers/master/docs/errors.png)
 
@@ -60,3 +60,7 @@ for (let i = 0; i < 10000; i++) {
 
 Got a new load balancing algorithm you'd like to see implemented in this package?
 Please go ahead and [create a work item](https://github.com/arrowfunction/load-balancers/issues/new) for us; or better yet, send a pull request and we'll be sure to take a look at it within 24 hours. Thanks!
+
+## Technical papers
+
+- [The power of two choices in randomized load balancing](http://www.eecs.harvard.edu/~michaelm/postscripts/tpds2001.pdf)
