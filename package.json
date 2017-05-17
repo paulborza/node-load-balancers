@@ -4,7 +4,7 @@
     "name": "Paul Borza",
     "url": "https://borza.ro/"
   },
-  "description": "Load balancers for Node, including \"the power of two choices\" algorithm",
+  "description": "Load balancers for Node, including the power of two choices algorithm",
   "devDependencies": {
     "@types/jest": "~19.2.3",
     "grunt": "~1.0.1",
@@ -22,8 +22,8 @@
   "keywords": [
     "load balancer",
     "load balancing",
-    "the power of 2 choices algorithm",
-    "the power of two choices algorithm"
+    "power of 2 choices algorithm",
+    "power of two choices algorithm"
   ],
   "license": "MIT",
   "main": "dist/index.js",
