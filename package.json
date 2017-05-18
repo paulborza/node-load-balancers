@@ -30,7 +30,7 @@
   "name": "load-balancers",
   "repository": {
     "type": "git",
-    "url": "https://github.com/arrowfunction/load-balancers.git"
+    "url": "https://github.com/paulborza/node-load-balancers.git"
   },
   "scripts": {
     "prepublish": "grunt"
