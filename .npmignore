@@ -6,13 +6,3 @@
 #
 
 coverage/
-docs/
-src/
-
-Gruntfile.js
-tsconfig.json
-tslint.json
-
-*.js.map
-*.spec.d.ts
-*.spec.js
