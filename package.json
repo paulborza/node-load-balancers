@@ -37,5 +37,5 @@
   },
   "types": "dist/index.d.ts",
   "title": "Load balancers for Node",
-  "version": "1.0.11"
+  "version": "1.0.12"
 }
