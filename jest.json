@@ -1,0 +1,11 @@
+{
+    "coverageReporters": [
+        "text",
+        "text-summary"
+    ],
+    "coverageThreshold": {
+        "global": {
+            "statements": 80
+        }
+    }
+}
