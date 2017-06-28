@@ -1,10 +1,7 @@
 # Load balancers for Node
 
-[![Build Status](https://img.shields.io/travis/paulborza/node-load-balancers/master.svg?style=flat)](https://travis-ci.org/paulborza/node-load-balancers)
-[![Coverage Status](https://img.shields.io/coveralls/paulborza/node-load-balancers/master.svg?style=flat)](https://coveralls.io/r/paulborza/node-load-balancers?branch=master)
-[![Dependency Status](https://img.shields.io/david/paulborza/node-load-balancers.svg?style=flat)](https://david-dm.org/paulborza/node-load-balancers)
-[![Dev. Dependency Status](https://img.shields.io/david/dev/paulborza/node-load-balancers.svg?style=flat)](https://david-dm.org/paulborza/node-load-balancers?type=dev)
-[![NPM version](https://img.shields.io/npm/v/load-balancers.svg?style=flat)](https://www.npmjs.com/package/load-balancers)
+[![build status](https://gitlab.com/paulborza/node-load-balancers/badges/master/build.svg)](https://gitlab.com/paulborza/node-load-balancers/commits/master)
+[![coverage report](https://gitlab.com/paulborza/node-load-balancers/badges/master/coverage.svg)](https://gitlab.com/paulborza/node-load-balancers/commits/master)
 
 ## Installation
 
