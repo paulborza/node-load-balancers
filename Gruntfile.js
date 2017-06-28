@@ -31,7 +31,7 @@ module.exports = function(grunt) {
 
         shell: {
             test: {
-                command: 'node node_modules/jest/bin/jest.js --coverage',
+                command: 'node node_modules/jest/bin/jest.js --coverage --config=jest.json',
             },
         },
 
