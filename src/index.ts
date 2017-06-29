@@ -10,6 +10,7 @@ import { P2cBalancer } from './P2cBalancer';
 import { RandomBalancer } from './RandomBalancer';
 
 export {
+    IBalancer,
     P2cBalancer,
     RandomBalancer,
 };
