@@ -31,11 +31,11 @@ import {
 
 // TODO: Update this list with your proxies or virtual machines.
 const proxies = [
-    'https://proxy1.arrowfunction.com/',
-    'https://proxy2.arrowfunction.com/',
-    'https://proxy3.arrowfunction.com/',
-    'https://proxy4.arrowfunction.com/',
-    'https://proxy5.arrowfunction.com/',
+    'https://proxy1.borza.ro/',
+    'https://proxy2.borza.ro/',
+    'https://proxy3.borza.ro/',
+    'https://proxy4.borza.ro/',
+    'https://proxy5.borza.ro/',
 ];
 
 // Initializes the Power of 2 Choices (P2c) Balancer with five proxies.
