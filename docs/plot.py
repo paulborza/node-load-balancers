@@ -40,4 +40,4 @@ plt.xticks(bins + bar_width, ('1', '2', '3', '4', '5'))
 plt.xlabel('Proxies')
 
 plt.legend()
-plt.savefig('errors.png')
+plt.savefig('comparison.png')
