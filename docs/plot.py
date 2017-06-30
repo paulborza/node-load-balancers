@@ -26,7 +26,7 @@ plt.rc('font', family='serif', serif='Computer Modern Roman')
 fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 4), sharey=True)
 
 fig.suptitle('Don\'t use a random load balancer!', fontsize=18)
-fig.subplots_adjust(top=0.80)
+fig.subplots_adjust(top=0.8)
 
 for ax in [ax1, ax2]:
     ax.yaxis.set_major_formatter(ticker.FuncFormatter(lambda y, _: '{:.2f}\%'.format(y * 100)))
