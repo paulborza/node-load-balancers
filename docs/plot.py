@@ -20,30 +20,41 @@ p2c_balancer = (0.2, 0.2001, 0.2, 0.1999, 0.2)
 # IMPORTANT: matplotlib won't find latex otherwise.
 os.environ['PATH'] = os.environ['PATH'] + ':/Library/TeX/texbin/'
 
-# plt.rc('text', usetex=True)
-plt.rc('font', family='serif')
+plt.rc('text', usetex=True)
+plt.rc('font', family='serif', serif='Computer Modern Roman')
 
-fig, ax = plt.subplots()
-ax.yaxis.set_major_formatter(ticker.FuncFormatter(lambda y, _: '{:.1%}'.format(y)))
+fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 4), sharey=True)
+
+fig.suptitle('Don\'t use a random load balancer!', fontsize=18)
+fig.subplots_adjust(top=0.80)
+
+for ax in [ax1, ax2]:
+    ax.yaxis.set_major_formatter(ticker.FuncFormatter(lambda y, _: '{:.2f}\%'.format(y * 100)))
 
 bins = np.arange(5)
 
-plt.bar(bins, random_balancer, bar_width, alpha=0.8,
-    color='orangered', label='Random Balancer')
- 
-plt.bar(bins + bar_width, p2c_balancer, bar_width, alpha=0.8,
-    color='limegreen', label='The Power of 2 Choices (P2c) Balancer')
-
-plt.axhline(y=0.2, linestyle='dashed',
-    color='green', label=r'Ideal Load Balancer')
-
-plt.title('Comparison of load balancers', fontsize=20, y=1.02)
-
 plt.ylim([0.19, 0.21])
-plt.ylabel('Traffic Percentage')
+
+ax1.bar(bins, random_balancer, bar_width, alpha=0.8,
+    color='orangered')
+ax2.bar(bins + bar_width, p2c_balancer, bar_width, alpha=0.8,
+    color='limegreen')
+
+ax1.set_title('Random load balancer', fontsize=14)
+ax2.set_title(r'Power of two choices load balancing algorithm', fontsize=14)
+
+for ax in [ax1, ax2]:
+    ax.axhline(y=0.2, linestyle='dashed',
+        color='green', label='Ideal load balancer')
 
 plt.xticks(bins + bar_width, ('1', '2', '3', '4', '5'))
-plt.xlabel('Proxies')
 
-plt.legend()
-plt.savefig('errors.png')
+ax2.yaxis.tick_right()
+ax2.yaxis.set_label_position('right')
+
+for ax in [ax1, ax2]:
+    ax.set_ylabel('Traffic')
+    ax.set_xlabel('Proxies')
+    ax.legend(frameon=False)
+
+plt.savefig('comparison.png', dpi=400)
