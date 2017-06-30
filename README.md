@@ -13,15 +13,12 @@ npm install --save load-balancers
 
 > Use the P2c Balancer over the Random Balancer!
 
-- The Random Balancer is a bit chaotic; it doesn't distribute requests as evenly as you'd think because there's no such thing as perfect randomness.
-- The Power of Two Choices (P2c) Balancer comes very close to the ideal load balancer. *Use the P2c Balancer over the Random Balancer!*
+- The Random Balancer is a bit chaotic; it doesn't distribute requests as evenly as one would think because there's no such thing as perfect randomness.
+- The Power of 2 Choices (P2c) Balancer comes very close to the ideal load balancer. *Use the P2c Balancer over the Random Balancer!*
 
-The following chart depicts 10,000 requests routed to five proxies (exactly like in the following code sample).
-Then the numer of requests are normalized to 100%. Since there are five proxies, each proxy should receive 20% of the traffic.
-But notice that's not the case with the random load balancing algorithm.
-That's why the power of two choices load balancing algorithm is recommended over the random load balancing algorithm.
+The following chart depicts 1M requests routed to 10 proxies (exactly like in the following code sample). Since there are 10 proxies, each proxy should receive 100K requests. But notice that's not the case with the random load balancer. That's why the power of two choices load balancing algorithm is recommended over a random approach.
 
-![Comparison of load balancing algorithms](https://raw.githubusercontent.com/paulborza/node-load-balancers/master/docs/errors.png)
+![1M requests routed to 10 proxies](https://raw.githubusercontent.com/paulborza/node-load-balancers/master/docs/comparison.png)
 
 ## Usage
 
@@ -38,6 +35,11 @@ const proxies = [
     'https://proxy3.borza.ro/',
     'https://proxy4.borza.ro/',
     'https://proxy5.borza.ro/',
+    'https://proxy6.borza.ro/',
+    'https://proxy7.borza.ro/',
+    'https://proxy8.borza.ro/',
+    'https://proxy9.borza.ro/',
+    'https://proxy10.borza.ro/',
 ];
 
 // Initializes the Power of 2 Choices (P2c) Balancer with five proxies.
@@ -46,7 +48,7 @@ const balancer = new P2cBalancer(proxies.length);
 // P2c Balancer is preferred over the Random Balancer.
 // const balancer = new RandomBalancer(proxies.length);
 
-for (let i = 0; i < 10000; i++) {
+for (let i = 0; i < 1000000; i++) {
     const proxy = proxies[balancer.pick()];
 
     // TODO: Use the assigned proxy to scrape a website,
