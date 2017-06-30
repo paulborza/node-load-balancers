@@ -11,10 +11,10 @@ npm install --save load-balancers
 
 ## Comparison of load balancers
 
-> Use the P2c Balancer over the Random Balancer!
+> Pick the P2c Balancer over the Random Balancer!
 
 - The Random Balancer is a bit chaotic; it doesn't distribute requests as evenly as one would think because there's no such thing as perfect randomness.
-- The Power of 2 Choices (P2c) Balancer comes very close to the ideal load balancer. *Use the P2c Balancer over the Random Balancer!*
+- The Power of 2 Choices (P2c) Balancer comes very close to the ideal load balancer. Pick the P2c Balancer over the Random Balancer!
 
 The following chart depicts 1M requests routed to 10 proxies (exactly like in the following code sample). Since there are 10 proxies, each proxy should receive 100K requests. But notice that's not the case with the random load balancer. That's why the power of two choices load balancing algorithm is recommended over a random approach.
 
