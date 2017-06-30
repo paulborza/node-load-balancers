@@ -58,4 +58,3 @@ for ax in [ax1, ax2]:
     ax.legend(frameon=False)
 
 plt.savefig('comparison.png', dpi=400)
-
