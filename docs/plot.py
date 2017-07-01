@@ -23,7 +23,7 @@ os.environ['PATH'] = os.environ['PATH'] + ':/Library/TeX/texbin/'
 plt.rc('text', usetex=True)
 plt.rc('font', family='serif', serif='Computer Modern Roman')
 
-fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 5), sharey=True)
+fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(15, 5), sharey=True)
 
 fig.suptitle('1M requests routed to 10 proxies', fontsize=18)
 fig.subplots_adjust(top=0.825)
@@ -40,8 +40,8 @@ ax1.bar(bins + bar_width, random_balancer, bar_width, alpha=0.8,
 ax2.bar(bins + bar_width, p2c_balancer, bar_width, alpha=0.8,
     color='limegreen')
 
-ax1.set_title('Random load balancer', fontsize=14)
-ax2.set_title('Power of two choices load balancing algorithm', fontsize=14)
+ax1.set_title('Random load balancer', fontsize=16)
+ax2.set_title('Power of two choices load balancing algorithm', fontsize=16)
 
 ax2.yaxis.tick_right()
 ax2.yaxis.set_label_position('right')
@@ -56,6 +56,6 @@ for ax in [ax1, ax2]:
     ax.set_ylabel('Requests')
     ax.set_xlabel('Proxies')
 
-    ax.legend(frameon=False)
+    ax.legend(fontsize=12, frameon=False)
 
 plt.savefig('comparison.png', dpi=400)
