@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
 import os
 
-bar_width = 0.3
+bar_width = 0.4
 random_balancer = (99716, 100226, 100051, 99987, 100161, 99496, 100045, 99965, 100211, 100142)
 p2c_balancer = (100001, 99999, 100000, 100000, 100000, 99999, 100002, 99999, 100000, 100000)
 
