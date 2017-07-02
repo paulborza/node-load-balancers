@@ -32,9 +32,6 @@
     "type": "git",
     "url": "https://github.com/paulborza/node-load-balancers.git"
   },
-  "scripts": {
-    "prepublish": "grunt"
-  },
   "types": "dist/index.d.ts",
   "title": "Load balancers for Node",
   "version": "1.0.0"
