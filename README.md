@@ -16,8 +16,6 @@ npm install --save load-balancers
 
 The following chart depicts 1M requests routed to 10 proxies (exactly like in the following code example). Since there are 10 proxies, each proxy should receive 100K requests. But notice that's not the case with the random load balancer. That's why the power of two choices load balancing algorithm is recommended over a random approach.
 
-> Pick the P2c Balancer over the Random Balancer!
-
 ![1M requests routed to 10 proxies](https://raw.githubusercontent.com/paulborza/node-load-balancers/master/docs/comparison.png)
 
 ## Usage
