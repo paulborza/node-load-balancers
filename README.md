@@ -2,6 +2,7 @@
 
 [![build status](https://gitlab.com/paulborza/node-load-balancers/badges/master/build.svg)](https://gitlab.com/paulborza/node-load-balancers/commits/master)
 [![coverage report](https://gitlab.com/paulborza/node-load-balancers/badges/master/coverage.svg)](https://gitlab.com/paulborza/node-load-balancers/commits/master)
+[![npm](https://img.shields.io/npm/dm/load-balancers.svg)](https://www.npmjs.com/package/load-balancers)
 
 ## Installation
 
