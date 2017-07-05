@@ -59,7 +59,7 @@ for (let i = 0; i < 1000000; i++) {
 ## Contributing
 
 Got a new load balancing algorithm you'd like to see implemented in this package?
-Please go ahead and [create a work item](/issues/new) for me; or better yet, send a pull request and I'll be sure to take a look at it within 24 hours. Thanks!
+Please go ahead and [create a work item](https://github.com/paulborza/node-load-balancers/issues/new) for me; or better yet, send a pull request and I'll be sure to take a look at it within 24 hours. Thanks!
 
 ## Technical papers
 
