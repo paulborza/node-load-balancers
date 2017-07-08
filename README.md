@@ -1,7 +1,7 @@
 # Load balancers for Node
 
-[![build status](https://gitlab.com/paulborza/load-balancers/badges/master/build.svg)](https://gitlab.com/paulborza/load-balancers/commits/master)
-[![coverage report](https://gitlab.com/paulborza/load-balancers/badges/master/coverage.svg)](https://gitlab.com/paulborza/load-balancers/commits/master)
+[![build status](https://gitlab.com/paulborza/node-load-balancers/badges/master/build.svg)](https://gitlab.com/paulborza/node-load-balancers/commits/master)
+[![coverage report](https://gitlab.com/paulborza/node-load-balancers/badges/master/coverage.svg)](https://gitlab.com/paulborza/node-load-balancers/commits/master)
 [![npm](https://img.shields.io/npm/dm/load-balancers.svg)](https://www.npmjs.com/package/load-balancers)
 
 ## Installation
@@ -17,7 +17,7 @@ npm install --save load-balancers
 
 The following chart depicts 1M requests routed to 10 proxies (exactly like in the following code example). Since there are 10 proxies, each proxy should receive 100K requests. But notice that's not the case with the random load balancer. That's why the power of two choices load balancing algorithm is recommended over a random approach.
 
-![1M requests routed to 10 proxies](https://raw.githubusercontent.com/paulborza/load-balancers/master/docs/comparison.png)
+![1M requests routed to 10 proxies](https://raw.githubusercontent.com/paulborza/node-load-balancers/master/docs/comparison.png)
 
 ## Usage
 
@@ -59,7 +59,7 @@ for (let i = 0; i < 1000000; i++) {
 ## Contributing
 
 Got a new load balancing algorithm you'd like to see implemented in this package?
-Please go ahead and [create a work item](https://github.com/paulborza/load-balancers/issues/new) for me; or better yet, send a pull request and I'll be sure to take a look at it within 24 hours. Thanks!
+Please go ahead and [create a work item](https://github.com/paulborza/node-load-balancers/issues/new) for me; or better yet, send a pull request and I'll be sure to take a look at it within 24 hours. Thanks!
 
 ## Technical papers
 
