@@ -20,9 +20,11 @@
   },
   "keywords": [
     "load balancer",
+    "load balancers",
     "load balancing",
     "power of 2 choices algorithm",
-    "power of two choices algorithm"
+    "power of two choices algorithm",
+    "round robin"
   ],
   "license": "MIT",
   "main": "dist/index.js",
