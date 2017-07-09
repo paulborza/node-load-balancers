@@ -3,6 +3,7 @@
 [![build status](https://gitlab.com/paulborza/load-balancers-node-package/badges/master/build.svg)](https://gitlab.com/paulborza/load-balancers-node-package/commits/master)
 [![coverage report](https://gitlab.com/paulborza/load-balancers-node-package/badges/master/coverage.svg)](https://gitlab.com/paulborza/load-balancers-node-package/commits/master)
 [![npm](https://img.shields.io/npm/dm/load-balancers.svg)](https://www.npmjs.com/package/load-balancers)
+[![npm](https://img.shields.io/npm/l/load-balancers.svg)](https://www.npmjs.com/package/load-balancers)
 
 ## Installation
 
