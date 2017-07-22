@@ -4,7 +4,7 @@
     "name": "Paul Borza",
     "url": "https://borza.ro"
   },
-  "description": "Load balancers for Node (NPM), including the power of two choices algorithm",
+  "description": "Load balancers for Node, including the power of two choices algorithm",
   "devDependencies": {
     "@types/jest": "19.2.3",
     "grunt": "1.0.1",
@@ -31,9 +31,9 @@
   "name": "load-balancers",
   "repository": {
     "type": "git",
-    "url": "https://github.com/paulborza/load-balancers-node-package.git"
+    "url": "https://github.com/paulborza/node-load-balancers.git"
   },
   "types": "dist/index.d.ts",
-  "title": "Load balancers for Node (NPM)",
+  "title": "Load balancers for Node",
   "version": "1.0.0"
 }
