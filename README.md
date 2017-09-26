@@ -30,16 +30,16 @@ import {
 
 // TODO: Update this list with your proxies or virtual machines.
 const proxies = [
-    'https://proxy1.borza.ro/',
-    'https://proxy2.borza.ro/',
-    'https://proxy3.borza.ro/',
-    'https://proxy4.borza.ro/',
-    'https://proxy5.borza.ro/',
-    'https://proxy6.borza.ro/',
-    'https://proxy7.borza.ro/',
-    'https://proxy8.borza.ro/',
-    'https://proxy9.borza.ro/',
-    'https://proxy10.borza.ro/',
+    'https://proxy1.borza.ro',
+    'https://proxy2.borza.ro',
+    'https://proxy3.borza.ro',
+    'https://proxy4.borza.ro',
+    'https://proxy5.borza.ro',
+    'https://proxy6.borza.ro',
+    'https://proxy7.borza.ro',
+    'https://proxy8.borza.ro',
+    'https://proxy9.borza.ro',
+    'https://proxy10.borza.ro',
 ];
 
 // Initializes the Power of 2 Choices (P2c) Balancer with five proxies.
