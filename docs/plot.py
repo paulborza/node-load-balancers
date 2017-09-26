@@ -7,7 +7,7 @@
 #
 
 # brew cask install mactex
-# pip install matplotlib numpy
+# pip install -r requirements.txt
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
