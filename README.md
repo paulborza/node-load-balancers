@@ -42,7 +42,7 @@ const proxies = [
     'https://proxy10.borza.ro',
 ];
 
-// Initializes the Power of 2 Choices (P2c) Balancer with five proxies.
+// Initializes the Power of 2 Choices (P2c) Balancer with ten proxies.
 const balancer = new P2cBalancer(proxies.length);
 
 // P2c Balancer is preferred over the Random Balancer.
