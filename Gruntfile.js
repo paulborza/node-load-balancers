@@ -12,7 +12,7 @@ module.exports = function(grunt) {
 
         clean: {
             default: [
-                'dist/',
+                'dist',
                 'tscommand-*.txt',
             ],
         },
@@ -32,9 +32,9 @@ module.exports = function(grunt) {
         ts: {
             default: {
                 options: {
-                    rootDir: 'src/',
+                    rootDir: 'src',
                 },
-                outDir: 'dist/',
+                outDir: 'dist',
                 tsconfig: true,
             },
         },
