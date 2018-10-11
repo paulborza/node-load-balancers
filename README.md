@@ -1,4 +1,4 @@
-# Load balancers for Node
+# Load Balancers for Node
 
 [![build status](https://gitlab.com/borzaresearch/node-load-balancers/badges/master/build.svg)](https://gitlab.com/borzaresearch/node-load-balancers/commits/master)
 [![coverage report](https://gitlab.com/borzaresearch/node-load-balancers/badges/master/coverage.svg)](https://gitlab.com/borzaresearch/node-load-balancers/commits/master)
@@ -11,7 +11,7 @@
 npm install --save load-balancers
 ```
 
-## Comparison of load balancers
+## Comparison of Load Balancers
 
 - The Random Balancer is a bit chaotic; it doesn't distribute requests as evenly as you'd think because there's no such thing as perfect randomness.
 - The Power of 2 Choices (P2c) Balancer comes very close to the ideal load balancer. Pick the P2c Balancer over the Random Balancer!
@@ -62,6 +62,6 @@ for (let i = 0; i < 1e6; i++) {
 Got a new load balancing algorithm you'd like to see implemented in this package?
 Please go ahead and [create a work item](https://github.com/borzaresearch/node-load-balancers/issues/new) for me; or better yet, send a pull request and I'll be sure to take a look at it within 24 hours. Thanks!
 
-## Technical papers
+## Technical Papers
 
 - [The power of two choices in randomized load balancing](http://www.eecs.harvard.edu/~michaelm/postscripts/tpds2001.pdf)
